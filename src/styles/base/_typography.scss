@@ -1,0 +1,28 @@
+// name & stats
+.regular-text {
+  font-size: 18px;
+  color: $very-dark-desaturated-blue;
+}
+
+.bold-text {
+  font-size: 18px;
+  color: $very-dark-desaturated-blue;
+  font-weight: 700;
+}
+
+.small-text {
+  font-size: 14px;
+  color: $dark-grayish-blue;
+}
+
+.tiny-text {
+  font-size: 10px;
+  color: $dark-grayish-blue;
+  letter-spacing: 2px;
+  padding-top: 5px;
+}
+
+span {
+  color: $dark-grayish-blue;
+  font-weight: 400;
+}
