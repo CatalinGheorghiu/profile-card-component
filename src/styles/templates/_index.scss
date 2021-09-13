@@ -1,4 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: $font-primary;
+}
+
 body {
-    background-color: $color-light-purple;
-    text-align: center;
+  height: 100vh;
+  background-color: $dark-cyan;
+  background-image: url("~@/images/bg-pattern-top.svg"), url("~@/images/bg-pattern-bottom.svg");
+  background-position: top -350px left -400px, bottom -300px right -400px;
+  background-size: 600px 600px;
+  background-repeat: no-repeat;
+
+  @media (min-width: $breakpoint-md) {
+    background-position: top -50px left -300px, bottom -100px right -300px;
+  }
+  @media (min-width: $breakpoint-lg) {
+    background-size: 700px 700px;
+    background-position: top -150px left -300px, bottom -200px right -250px;
+  }
+
+  @media (min-width: $breakpoint-xlg) {
+    background-size: 1200px 1200px;
+    background-position: top -650px left -450px, bottom -800px right -350px;
+  }
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 24px;
 }

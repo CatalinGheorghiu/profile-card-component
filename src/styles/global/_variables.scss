@@ -1,8 +1,24 @@
-// Colors
-$color-light-purple: #e3e3;
+/*
+ *** Colors ***
+*/
+
+// Primary
+$dark-cyan: hsl(185, 75%, 39%);
+$very-dark-desaturated-blue: hsl(229, 23%, 23%);
+$dark-grayish-blue: hsl(227, 10%, 46%);
+
+// Neutral
+$dark-gray: hsl(0, 0%, 59%);
+
 
 $breakpoint-md: 768px; // tablets
 $breakpoint-max-lg: 959px; // desktop
 $breakpoint-lg: 960px; // desktop
 $breakpoint-max-xlg: 1439px; // HD
 $breakpoint-xlg: 1440px; // HD
+
+/*
+*** Fonts ***
+ */
+
+$font-primary: 'Kumbh Sans';
